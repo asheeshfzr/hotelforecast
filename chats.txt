@@ -1,0 +1,31 @@
+AI chats-
+
+1. Understanding the Assignment
+
+Me: “Understand the PDF file attached & also the attached dataset csv file & explain in detail what needs to be done, what are the deliverables, and what is out of scope.”
+AI: Broke down the requirements, deliverables, and clarified scope.
+My Action: Used this as a starting point to plan tasks into: Data Ingestion, EDA, Forecasting, Monitoring, Deployment considerations.
+
+2. ML Problem Framing
+
+Me: “Start from the ML basics for this assignment. What kind of ML problem is this? How should it be approached?”
+AI: Explained time-series forecasting basics, differences vs regression/classification, and real-world considerations.
+My Action: Validated that this aligns with my knowledge; I then decided Holt-Winters should be my baseline, with LightGBM/LSTM as candidates.
+
+3. Code Iterations
+
+Me: “Write code in Python to build a daily occupancy forecasting model in one file (for easy debugging). Later we will modularize.”
+AI: Produced a working prototype script.
+My Action: I executed, debugged, adjusted forecast horizon, and eventually modularized into separate files (ingest, preprocess, models, monitoring).
+
+4. Adding Best Practices
+
+Me: “Add feature engineering, ML model selection, monitoring, drift detection, retraining strategy. Ensure code follows best practices.”
+AI: Suggested modularization and enhancements (EDA, feature importance, retraining triggers).
+My Action: I didn’t just copy code — I made decisions about what to include, verified model outputs, and ensured monitoring logic aligned with my understanding of real-world MLOps.
+
+5. README & Documentation
+
+Me: “Rewrite the README with merged Market Analysis + EDA section. Include plots, statistics, metrics, model explanation, comparison with ML models, and deployment considerations.”
+AI: Produced draft documentation.
+My Action: Reviewed, simplified language, and ensured it reflected my own analysis and understanding (e.g., correlations, anomalies, rationale for Holt-Winters vs LightGBM).

@@ -1,0 +1,1 @@
+"""LodgIQ forecasting package."""
